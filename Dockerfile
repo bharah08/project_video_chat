@@ -3,4 +3,4 @@ WORKDIR /app
 COPY client /app
 COPY . .
 RUN npm install package.json
-CMD ["node","index.json"]
+CMD ["node","index.js"]
